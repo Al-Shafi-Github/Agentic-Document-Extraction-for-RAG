@@ -6,6 +6,8 @@ This repository demonstrates a **Retrieval-Augmented Generation (RAG)** pipeline
 
 Unlike traditional RAG pipelines that treat documents as flat text, this project leverages **Agentic Document Extraction (ADE)** to parse content into semantic chunks (text, tables, figures) with spatial metadata. This enables **Visual Grounding**—allowing users to not only get an answer but also see the exact location in the source document where the information resides.
 
+ <img width="1408" height="768" alt="Diagrams ADE" src="https://github.com/user-attachments/assets/e65aceaf-36b2-4bf0-8860-982bc3d9b604" />
+
 ## 🚀 Key Features
 
 * **Semantic & Hybrid Search:** Combines vector similarity with metadata filtering (e.g., searching only "tables" for financial data).
